@@ -1,0 +1,21 @@
+component,category,pessimistic,base,optimistic,unit,source,notes
+g1_health_90days,spending_expansion,10.0,10.0,10.0,bn_COP_2027,El Tiempo feb 2026,Fixed — verifiable declaration
+g2_caribbean_electricity,spending_expansion,6.0,6.0,6.0,bn_COP_2027,Pulzo abr 2026,Fixed — verifiable declaration
+g3_health_payroll,spending_expansion,4.0,4.0,4.0,bn_COP_2027,Pulzo abr 2026,Fixed — verifiable declaration
+g4_elderly_subsidy,spending_expansion,8.5,8.5,8.5,bn_COP_2027,Own estimate DANE 2025,Fixed — demographic projection
+g5_megajails_phase1,spending_expansion,5.0,3.5,2.5,bn_COP_2027,Prison infrastructure refs,Variable — implementation uncertainty
+TOTAL_g,spending_expansion,33.5,32.0,31.0,bn_COP_2027,,Sum of g1-g5
+tau1_4x1000_elimination,revenue_reduction,14.8,14.8,14.8,bn_COP_2027,DIAN 2024 Infobae 2026,Fixed — DIAN static scoring
+tau2_gasoline_tax,revenue_reduction,3.0,3.0,3.0,bn_COP_2027,U Jorge Tadeo Lozano 2025,Fixed — dynamic scoring
+TOTAL_tau,revenue_reduction,17.8,17.8,17.8,bn_COP_2027,,Sum of tau1-tau2
+sigma1_state_reform,savings,9.0,15.0,21.0,bn_COP_2027,Model + BanRep 2025,Stochastic — theta_L * G_flex
+sigma2_anticorruption,savings,2.0,4.0,7.0,bn_COP_2027,Historical FGN/DNE refs,Stochastic — uncertain
+TOTAL_sigma,savings,11.0,19.0,28.0,bn_COP_2027,,Sum of sigma1-sigma2
+IPE_total,gap,40.3,30.8,20.8,bn_COP_2027,,g + tau - sigma
+Omega,normalized_index,1.26,0.96,0.65,ratio,,IPE / G_flex (G_flex=32bn base)
+IPE_pct_GDP,normalized_index,3.77,2.88,1.94,percent,,IPE / Y_2027 (Y=1070bn)
+G_flex_estimate,parameter,28.0,32.0,40.0,bn_COP_2027,BanRep 2025 Obs Fiscal Javeriana,Non-mandated flexible spending
+G_total,parameter,365.8,365.8,365.8,bn_COP_2027,MinHacienda BanRep 2025,Total GNC spending 2026
+T_total,parameter,301.7,301.7,301.7,bn_COP_2027,MinHacienda 2025,Total GNC revenue 2026
+delta_da,parameter,2.4,2.4,2.4,pct_GDP,,Fiscal rule limit Ley 2155/2021
+Y_2027,parameter,1070,1070,1070,bn_COP_2027,BanRep DANE 2025,Projected nominal GDP 2027
