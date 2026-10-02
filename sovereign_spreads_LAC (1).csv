@@ -1,0 +1,19 @@
+country,year,quarter,cds_spread_bp,RF_activa,Omega_candidate,platform_announcement_date,spread_change_10d,notes
+Argentina,2015,Q4,380,0,0.72,,12,Pre-Macri election
+Argentina,2023,Q2,2150,1,1.81,2023-05-15,180,Milei platform announcement +180bp in 10 days
+Bolivia,2019,Q4,210,0,0.41,,8,
+Brasil,2018,Q3,290,1,0.68,2018-07-01,45,Bolsonaro platform
+Chile,2017,Q4,68,1,0.38,2017-10-01,-5,Piñera — low Omega, spread stable
+Chile,2021,Q4,74,1,0.55,2021-10-01,12,Boric platform
+Colombia,2018,Q2,145,1,0.44,2018-03-01,8,Duque — moderate Omega
+Colombia,2022,Q2,210,1,0.87,2022-03-01,62,Petro — high Omega, spread reaction
+Colombia,2026,Q1,185,1,0.96,2026-02-01,55,De la Espriella — Omega near threshold
+Ecuador,2006,Q4,580,0,0.79,,38,Correa — no RF
+Ecuador,2021,Q1,720,0,0.52,2021-02-01,15,Lasso
+Mexico,2018,Q2,165,0,0.61,2018-04-01,28,AMLO platform
+Paraguay,2018,Q2,145,0,0.35,2018-03-01,5,Abdo — low Omega
+Peru,2016,Q2,158,1,0.43,2016-03-01,9,Kuczynski
+Peru,2021,Q2,162,0,1.09,2021-04-01,89,Castillo — Omega>1, large spread jump
+Uruguay,2019,Q4,88,1,0.31,2019-10-01,-3,Lacalle — low Omega, spread stable
+Venezuela,2013,Q4,850,0,1.52,,125,Maduro
+Venezuela,2018,Q4,8500,0,1.73,,2800,Hyperinflation period
